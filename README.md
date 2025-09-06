@@ -1,6 +1,7 @@
 # CPP-CheatSheet
 cpp cheat sheet for basic language syntax - win32 api 
 
+```
 // C++ Cheatsheet
 
 // ==================== BASICS ====================
@@ -235,3 +236,5 @@ printf("Address: 0x%llX\n", (unsigned long long)(uintptr_t)ptr);
 // 4    | Cast the pointer                | VA VirtualAllocFunc = reinterpret_cast<VA>(p);
 // 5    | Call the function               | LPVOID mem = VirtualAllocFunc(NULL,0x1000,MEM_COMMIT|MEM_RESERVE,PAGE_READWRITE);
 // 6    | Clean up                        | FreeLibrary(hMod);
+
+```
